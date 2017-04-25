@@ -42,7 +42,8 @@ TBD
 
 ## References
 
-https://code.google.com/archive/p/multiwii/
+
+* [MultiWii binaries](https://code.google.com/archive/p/multiwii/)
 
 https://code.google.com/archive/p/i2c-gps-nav/downloads
 
