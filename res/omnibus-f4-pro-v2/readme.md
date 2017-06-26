@@ -25,7 +25,7 @@ $ sudo usermod -a -G plugdev clement
 
 - You should see the virtual drone move on XYZ axis
 
-![Drone in betaflight](res/omnibus-f4-pro-v2/drone-betaflight.png)
+![Drone in betaflight](/res/omnibus-f4-pro-v2/drone-betaflight.png)
 
 
 
