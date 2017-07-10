@@ -49,4 +49,4 @@ https://code.google.com/archive/p/i2c-gps-nav/downloads
 
 https://www.u-blox.com/en/product-search?keywords=u-center&utm_source=en%2Fevaluation-tools-a-software%2Fu-center%2Fu-center.html
 
-
+https://nathan.vertile.com/blog/2016/07/07/omnibus-typhoon-miniquad
