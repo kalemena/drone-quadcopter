@@ -3,7 +3,7 @@
 
 Hare are few notes on using the board under linux.
 
-## Setup
+## Setup Configurator
 
 - [Follow linux specific UDEV notes](https://github.com/betaflight/betaflight/wiki/Installing-Betaflight)
 
@@ -27,6 +27,27 @@ $ sudo usermod -a -G plugdev clement
 
 ![Drone in betaflight](/res/omnibus-f4-pro-v2/drone-betaflight.png)
 
+## Hook and setup Radio
 
+Inspired from [Youtube video - hooking up receiver](https://www.youtube.com/watch?v=pNEyERJ1w_8)
 
+Translated to usage of "FS-A8S" receiver, this brings to:
+
+- Hook UART 1 to FS-A8S with respecting Ground, Vcc and i-Bus to RX UART.
+
+![receiver-fs-a8s](/res/omnibus-f4-pro-v2/receiver-fs-a8s.png)
+
+- Connect board+receiver to Betaflight
+
+- Enable Rx on UART 1
+
+![Enable UART1](/res/omnibus-f4-pro-v2/betaflight-set-receiver-rx-uart1.png)
+
+- Set Receiver to be i-Bus
+
+![Set i-Bus](/res/omnibus-f4-pro-v2/betaflight-set-receiver-i-bus.png)
+
+- Test receiver
+
+![Test Receiver](/res/omnibus-f4-pro-v2/betaflight-test-receiver.png)
 
