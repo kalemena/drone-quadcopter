@@ -1,7 +1,9 @@
 
 # Board notes
 
-Hare are few notes on using the board under linux.
+Here are few notes on using the board under linux.
+
+![Wiring overview](/res/omnibus-f4-pro-v2/drone-wiring.png)
 
 ## Setup Configurator
 
@@ -51,3 +53,9 @@ Translated to usage of "FS-A8S" receiver, this brings to:
 
 ![Test Receiver](/res/omnibus-f4-pro-v2/betaflight-test-receiver.png)
 
+
+# References
+
+- [GPS info ?](https://www.youtube.com/watch?v=nQCQXuqQSd8)
+
+- [Info](https://nathan.vertile.com/blog/2016/07/07/omnibus-typhoon-miniquad)
