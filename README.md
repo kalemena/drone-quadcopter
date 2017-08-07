@@ -1,20 +1,21 @@
 
 # drone-quadcopter
 
-Drone Quadcopter controlled by WiFi and built using simple parts.
+Drone Quadcopter mounted from standard parts.
 
 (this repo serves more as notes than tutorial or full project description)
 
+![Drone F450](/res/drone-f450.png)
 
 ## BOM
 
-* Controller kit: ~ 50€
-  * MultiWii (using gyro + pressure sensor)
+* Controller kit: (ebay ~ 50€)
+  * Omnibus F4 v2 pro (using gyro + pressure sensor)
+  * Wires (micro JST)
   * GPS
   * Bluetooth
-  * Mini oled screen
 
-* Frame kit: ~ 50€
+* Frame kit: (ebay ~ 50€)
   * F450 flavored
   * Propelers 1045
   * 4x ESC: Mystery 30A
@@ -22,31 +23,35 @@ Drone Quadcopter controlled by WiFi and built using simple parts.
 
 * Power: ~ 20 to 60 €
   * [Batteries 2 x ~ 4000mAh (30€)](https://hobbyking.com/fr_fr/zippy-compact-4000mah-3s-25c-lipo-pack.html)
-  * [Charger iMax B6 Mini Pro (30€)]()
+  * [Charger iMax B6 Mini Pro (30€)](http://le-modelisme.com/?Rc-2550Rc-SKYRC-iMAX-B6-Mini-Pro-Balance-Chargeur-/-Dechargeur-pour-RC-Batterie-12V.html)
  
-* Radio command:
-  * [nRF24L01 x2](https://www.amazon.fr/dp/B06WD17WLS/ref=pe_386181_51767671_TE_dp_1)
-![nRF24L01](res/nrf24.jpg) (5€)
+* Radio command + receiver: ~ 45€
+  * [FlySky FS-i6](https://www.banggood.com/fr/FlySky-FS-i6-2_4G-6CH-AFHDS-RC-Transmitter-With-FS-iA6B-Receiver-p-983537.html?rmmds=search)
+  * [FS-A8S](https://www.banggood.com/fr/Flysky-FS-A8S-2_4G-8CH-Mini-Receiver-with-PPM-i-BUS-SBUS-Output-p-1092861.html)
 
-* Misc
+* Misc: ~5€
   * [UBEC 5v 5A](https://hobbyking.com/fr_fr/hobbykingtm-hku5-5v-5a-ubec.html)
-  * [BEC 5v/12v](https://hobbyking.com/fr_fr/matek-micro-bec-5v-12v-adj.html)
+  * Not needed - [BEC 5v/12v](https://hobbyking.com/fr_fr/matek-micro-bec-5v-12v-adj.html)
 
-* FPV ?
+* FPV: Foxeer Box ?
   * Camera (photos or remote view) 
 
 ## Stories
 
-TBD
+### Wiring MultiWii
 
+:bell: Discard this story if starting from scratch.
+
+[Here](/res/multiwii) is attempt to use MultiWii setup.
+
+### Wiring Omnibus
+
+[Here](/res/omnibus-f4-pro-v2) is details on Omnibus wiring.
 
 ## References
-
-
-* [MultiWii binaries](https://code.google.com/archive/p/multiwii/)
 
 https://code.google.com/archive/p/i2c-gps-nav/downloads
 
 https://www.u-blox.com/en/product-search?keywords=u-center&utm_source=en%2Fevaluation-tools-a-software%2Fu-center%2Fu-center.html
 
-https://nathan.vertile.com/blog/2016/07/07/omnibus-typhoon-miniquad
+
