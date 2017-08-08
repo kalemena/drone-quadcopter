@@ -1,11 +1,13 @@
 
 # Board notes
 
-Here are few notes on using the board under linux.
+Here are few notes on using the board.
 
 ![Wiring overview](/res/omnibus-f4-pro-v2/drone-wiring.png)
 
 ## Setup Configurator
+
+Using the board under linux is described below:
 
 - [Follow linux specific UDEV notes](https://github.com/betaflight/betaflight/wiki/Installing-Betaflight)
 
@@ -35,9 +37,7 @@ Inspired from [Youtube video - hooking up receiver](https://www.youtube.com/watc
 
 Translated to usage of "FS-A8S" receiver, this brings to:
 
-- Hook UART 1 to FS-A8S with respecting Ground, Vcc and i-Bus to RX UART.
-
-![receiver-fs-a8s](/res/omnibus-f4-pro-v2/receiver-fs-a8s.png)
+- Hook UART 1 to FS-A8S with respecting Ground, Vcc and i-Bus to RX UART. This is shown in image on top of this page.
 
 - Connect board+receiver to Betaflight
 
