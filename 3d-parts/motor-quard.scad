@@ -2,23 +2,19 @@ $fn=150;
 
 height=17;
 bottomWidth=1;
+motorDiam=33;
 
 difference() {
     hull() {
-        cylinder(height,32/2,32/2,false);
-        translate([20,0,0]) {
-            translate([0,0,0]) cylinder(height/2,20/2,20/2,false);
-        }
+        cylinder(height,motorDiam/2,motorDiam/2,false);
+        translate([16,0,0]) cylinder(height/2,20/2,20/2,false);
         translate([-20,-10,0]) cube([20,20,height/1.5]);
     }
     translate([0,0,bottomWidth]) 
     hull() {
-        cylinder(height,30/2,30/2,false);
-        translate([-20,-9,0]) cube([18,18,height/1.5]);
-    }
-    hull() {
-        translate([0,0,bottomWidth]) cylinder(4.2,30/2,30/2,false);
-        translate([20,0,bottomWidth]) cylinder(4.2,17/2,17/2,false);
+        cylinder(height,(motorDiam-2)/2,(motorDiam-2)/2,false);
+        translate([-20,-9,0]) cube([18,18,height]);
+        translate([16,0,bottomWidth]) cylinder(4.2,17/2,17/2,false);
     }
     translate([-40,-10,bottomWidth]) cube([40,20,height]);
     translate([0,0,-0.5]) cylinder(5,9/2,9/2,false);
