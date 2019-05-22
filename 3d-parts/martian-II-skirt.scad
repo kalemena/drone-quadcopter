@@ -81,7 +81,7 @@ module back() {
 
 module side() {
     front();
-    middle();
+    //middle();
     back();
 }
 

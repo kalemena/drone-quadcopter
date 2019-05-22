@@ -1,0 +1,13 @@
+
+= 3d parts
+
+== Martian II
+
+image:martian-II-motor-guard.png[Drone Martian II Motor guard]
+
+See link:martian-II-motor-guard.scad[OpenScad source] or link:martian-II-motor-guard.stl[STL]
+
+image:martian-II-skirt.png[Drone Martian II Skirt]
+
+See link:martian-II-skirt.scad[OpenScad source] or link:martian-II-skirt.stl[STL]
+
