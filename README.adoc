@@ -53,12 +53,15 @@ link:res/omnibus-f4-pro-v2[Here] is details on Omnibus wiring.
 
 == References
 
-* https://code.google.com/archive/p/i2c-gps-nav/downloads[I2C lib]
-* https://www.u-blox.com/en/product-search?keywords=u-center&utm_source=en%2Fevaluation-tools-a-software%2Fu-center%2Fu-center.html[UBlox lib]
+* link:https://code.google.com/archive/p/i2c-gps-nav/downloads[I2C lib]
 
-https://www.wearefpv.fr/betaflight-3-2-reglages-pid-20170918/
-*  https://blog.dronetrest.com/setting-up-flight-modes-in-cleanflight-betaflight/
+* link:https://www.u-blox.com/en/product-search?keywords=u-center&utm_source=en%2Fevaluation-tools-a-software%2Fu-center%2Fu-center.html[UBlox lib]
 
-* http://www.mateksys.com/?portfolio=f405-ctr#tab-id-3
+* link:https://www.wearefpv.fr/betaflight-3-2-reglages-pid-20170918/[]
 
+* link:https://blog.dronetrest.com/setting-up-flight-modes-in-cleanflight-betaflight/[]
+
+* link:http://www.mateksys.com/?portfolio=f405-ctr#tab-id-3[]
+
+* link:http://bestdronesforme.com/best-drone-flight-controllers-quadcopters-board/[]
 

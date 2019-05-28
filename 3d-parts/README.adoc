@@ -1,6 +1,10 @@
 
 = 3d parts
 
+== Parts
+
+link:https://www.thingiverse.com/thing:3592339[FlySky X6B receiver mount]
+
 == Martian II
 
 image:martian-II-motor-guard.png[Drone Martian II Motor guard]
