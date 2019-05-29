@@ -1,3 +1,5 @@
+$fn=100;
+
 echo(version=version());
 
 font1 = "Liberation Sans";
@@ -5,7 +7,7 @@ font2 = "Segoe UI Emoji";
 
 module letter(font, letter_size, letter_height, text) {
   linear_extrude(height = letter_height) {
-    text(text, size = letter_size, font = font, halign = "center", valign = "center", $fn = 16);
+    text(text, size = letter_size, font = font, halign = "center", valign = "center");
   }
 }
 
@@ -21,8 +23,8 @@ spacer_width=2;
 
 module spacer() {
     difference() {
-        cylinder(z_h, (spacer_diam + spacer_width)/2, (spacer_diam + spacer_width)/2, true, $fn=50);
-        cylinder(z_h, spacer_diam/2, spacer_diam/2, true, $fn=50);
+        cylinder(z_h, (spacer_diam + spacer_width)/2, (spacer_diam + spacer_width)/2, true);
+        cylinder(z_h, spacer_diam/2, spacer_diam/2, true);
     }
 }
 
@@ -47,22 +49,26 @@ module middle() {
                 cube([width, 10, z_h-10]);
                 translate([-1,0,0]) cube([2, width, z_h-10]);
                 translate([-1,8,0]) cube([2, width, z_h-10]);
-                translate([-1,9,0])  rotate([0,0,-45]) cube([width, 13, z_h-10]);
+                translate([-1,9,-10])  rotate([0,0,-45]) cube([width, 13, z_h]);
             }
             translate([part2_L+part3_L-spacer_diam+1,-4.5,10]) {
                 cube([width, 10, z_h-10]);
                 cube([2, width, z_h-10]);
                 translate([0,8,0]) cube([2, width, z_h-10]);
-                translate([1.5,8.3,0]) rotate([0,0,45]) cube([width, 13, z_h-10]);
+                translate([1.5,8.3,-10]) rotate([0,0,45]) cube([width, 13, z_h]);
             }
-            translate([part3_L+12.3,12.8,10]) cube([part2_L-24.5, width, z_h-10]);
+            translate([part3_L+12.3,12.8,0]) cube([part2_L-24.5, width, z_h]);
             translate([part3_L+5,-2,z_h-width]) cube([part2_L-10, 15, width]);
         }
-        translate([part3_L+part2_L/3+4.5,12,12]) cube([14, width*2, 4]);
+        translate([part3_L+part2_L/3+6,12,2]) cube([14, width*2, 4]);
         translate([part3_L+part2_L/3+4.5,3,z_h-width]) cube([14, 4, width*2]);
-        translate([part3_L+3.7,5,30]) rotate([0,0,45]) cube([14, 6, 10]);
-        translate([part3_L+part2_L-12.65,14,30]) rotate([0,0,-45]) cube([14, 6, 10]);
+        translate([part3_L+3.5,5,30]) rotate([0,0,45]) cube([14, 6, 10]);
+        translate([part3_L+part2_L-12.28,14,30]) rotate([0,0,-45]) cube([14, 6, 10]);
+        
+        translate([part3_L+12+13,10-10,0]) rotate([-90,0,45]) cylinder(40,10,10);
+        translate([part3_L+22+35-8,10-10,0]) rotate([-90,0,-45]) cylinder(40,10,10);
     }
+    
 }
 
 module back() {
@@ -81,7 +87,7 @@ module back() {
 
 module side() {
     front();
-    //middle();
+    middle();
     back();
 }
 
@@ -89,7 +95,7 @@ module side() {
 difference() {
     union() {
         side(); // left
-        translate([0,-y_l,0]) mirror([0,1,0]) side(); // right
+        //translate([0,-y_l,0]) mirror([0,1,0]) side(); // right
     }
     
     // center-back
