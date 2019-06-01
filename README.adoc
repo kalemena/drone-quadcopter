@@ -1,11 +1,9 @@
 
 = drone-quadcopter
 
-Drone Quadcopter mounted from standard parts.
+Drone Quadcopter mounting, customized with additional modules and 3d printed parts.
 
-(this repo serves more as notes than tutorial or full project description)
-
-:imagesdir: res
+This repository includes notes gathered along multiple setups, starting from custom code, to specific controller boards.
 
 image:drone-f450.png[Drone F450]
 
@@ -41,15 +39,17 @@ image:drone-f450.png[Drone F450]
 
 == Stories
 
-=== Wiring MultiWii
+* link:stories/01-arduino-testing-esc[Arduino ESC tests]
 
-IMPORTANT: Discard this story if starting from scratch.
+* link:stories/02-ctrl-multiwii[Controller - MultiWii setup]
 
-link:res/multiwii[Here] is attempt to use MultiWii setup.
+* link:stories/03-ctrl-omnibus-f4-pro-v2[Controller - Omnibus F4 pro v2]
 
-=== Wiring Omnibus
+// * link:stories/04-ctrl-matek-f405-ctr[Controller - Matek F405 CTR]
 
-link:res/omnibus-f4-pro-v2[Here] is details on Omnibus wiring.
+// * link:stories/05-cam-runcam-split[Camera - Runcam Split]
+
+// * link:stories/06-frame-3d-printing[Frame - 3d printed add-on]
 
 == References
 

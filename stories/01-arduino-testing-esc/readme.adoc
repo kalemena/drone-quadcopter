@@ -1,0 +1,12 @@
+
+= ESC testing
+
+Arduino can be used to test ESC directly.
+
+= Tests
+
+Schema below allows to test rotating ESC.
+
+There are few things to understand, described inline in the sketches.
+
+See the 2 sketches in this folder.

@@ -1,0 +1,14 @@
+
+= MultiWii
+
+This was a first cheap controller board.
+
+Does the job, but is a bit limited.
+
+= Firmware
+
+* link:https://code.google.com/archive/p/multiwii/[MultiWii binaries]
+
+= Schema
+
+image:multiwii-schema.jpg[MultiWii schema]
