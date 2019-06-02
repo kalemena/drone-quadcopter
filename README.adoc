@@ -5,37 +5,13 @@ Drone Quadcopter mounting, customized with additional modules and 3d printed par
 
 This repository includes notes gathered along multiple setups, starting from custom code, to specific controller boards.
 
-image:drone-f450.png[Drone F450]
+== Drones
 
-== BOM
+F450 was first build.
 
-* Controller kit: (ebay ~ 50€)
-  ** Omnibus F4 v2 pro (using gyro + pressure sensor)
-  ** Wires (micro JST)
-  ** GPS
-  ** Bluetooth
+It is massive, working but way too big and heavy to allow flying anywhere.
 
-* Frame kit: (ebay ~ 50€)
-  ** F450 flavored
-  ** Propelers 1045
-  ** 4x ESC: Mystery 30A
-  ** 4x Motor: B2212-920KV. 
-
-* Power: ~ 20 to 60 €
-  ** https://hobbyking.com/fr_fr/zippy-compact-4000mah-3s-25c-lipo-pack.html[Batteries 2 x ~ 4000mAh (30€)]
-  ** http://le-modelisme.com/?Rc-2550Rc-SKYRC-iMAX-B6-Mini-Pro-Balance-Chargeur-/-Dechargeur-pour-RC-Batterie-12V.html[Charger iMax B6 Mini Pro (30€)]
- 
-* Radio command + receiver: ~ 45€
-  ** https://www.banggood.com/fr/FlySky-FS-i6-2_4G-6CH-AFHDS-RC-Transmitter-With-FS-iA6B-Receiver-p-983537.html?rmmds=search[FlySky FS-i6]
-  ** https://www.banggood.com/fr/Flysky-FS-A8S-2_4G-8CH-Mini-Receiver-with-PPM-i-BUS-SBUS-Output-p-1092861.html[FS-A8S]
-
-* Misc: ~5€
-  ** https://hobbyking.com/fr_fr/hobbykingtm-hku5-5v-5a-ubec.html[UBEC 5v 5A]
-  ** Not needed - https://hobbyking.com/fr_fr/matek-micro-bec-5v-12v-adj.html[BEC 5v/12v]
-
-* FPV: Foxeer Box ?
-  ** Camera (photos or remote view)
-  ** http://www.instructables.com/id/FPV-System-for-Drones/[Instructables] 
+image:res/drone-f450.png[Frame - F450]
 
 == Stories
 
@@ -51,17 +27,53 @@ image:drone-f450.png[Drone F450]
 
 // * link:stories/06-frame-3d-printing[Frame - 3d printed add-on]
 
+== BOM
+
+Each story includes few items to purchase which are based on size of the board.
+
+Below are items independant of the boards.
+
+.Materials
+[width="80%",options="header"]
+|=========================================================
+|Type | Price | Link | Comments
+
+|Power | ~ 20 to 60 € | 
+
+* link:https://hobbyking.com/fr_fr/zippy-compact-4000mah-3s-25c-lipo-pack.html[Batteries 2 x ~ 4000mAh (30€)]
+
+* Charger iMax B6 Mini Pro (30€)
+
+ | Power pack and charger is unavoidable!
+
+ |Radio | ~ 45€ | 
+
+link:https://www.banggood.com/fr/FlySky-FS-i6-2_4G-6CH-AFHDS-RC-Transmitter-With-FS-iA6B-Receiver-p-983537.html?rmmds=search[FlySky FS-i6]
+
+link:https://www.banggood.com/fr/Flysky-FS-A8S-2_4G-8CH-Mini-Receiver-with-PPM-i-BUS-SBUS-Output-p-1092861.html[FS-A8S]
+
+ | Radio command + receiver
+
+|Misc | ~5€ | 
+
+* link:https://hobbyking.com/fr_fr/hobbykingtm-hku5-5v-5a-ubec.html[UBEC 5v 5A]
+
+* Not needed - link:https://hobbyking.com/fr_fr/matek-micro-bec-5v-12v-adj.html[BEC 5v/12v]
+
+ | Few board must have
+
+|FPV | ~70€ | 
+
+ | FPV system
+
+|=========================================================
+
+
 == References
 
-* link:https://code.google.com/archive/p/i2c-gps-nav/downloads[I2C lib]
+* link:https://www.wearefpv.fr/betaflight-3-2-reglages-pid-20170918/[Betaflight PID tuning]
 
-* link:https://www.u-blox.com/en/product-search?keywords=u-center&utm_source=en%2Fevaluation-tools-a-software%2Fu-center%2Fu-center.html[UBlox lib]
-
-* link:https://www.wearefpv.fr/betaflight-3-2-reglages-pid-20170918/[]
-
-* link:https://blog.dronetrest.com/setting-up-flight-modes-in-cleanflight-betaflight/[]
-
-* link:http://www.mateksys.com/?portfolio=f405-ctr#tab-id-3[]
+* link:https://blog.dronetrest.com/setting-up-flight-modes-in-cleanflight-betaflight/[Bateflight setting up]
 
 * link:http://bestdronesforme.com/best-drone-flight-controllers-quadcopters-board/[]
 
