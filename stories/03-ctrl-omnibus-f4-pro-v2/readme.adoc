@@ -3,7 +3,7 @@
 
 Here is a little setup for an F450 frame
 
-image:res/drone-f450.png[F450 frame]
+image:/res/drone-f450.png[F450 frame]
 
 == BOM
 

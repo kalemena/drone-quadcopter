@@ -1,0 +1,32 @@
+
+= Martian II build
+
+== BOM
+
+Using Matek F405 CTR
+
+== Wiring
+
+* link:http://www.mateksys.com/?portfolio=f405-ctr#tab-id-3[Matek f405 ctr wiring]
+
+== Building
+
+Here are photos in progress of building:
+
+image:frame-martian-II-matek-build-01.jpg[Frame Martian II]
+
+image:frame-martian-II-matek-build-02.jpg[Power board 5v + 12v]
+
+image:frame-martian-II-matek-build-03.jpg[ESC Racerstar 30A]
+
+image:frame-martian-II-matek-build-04.jpg[ESC mounted]
+
+// image:frame-martian-II-matek-build-05.jpg[Motors]
+
+image:frame-martian-II-matek-build-06.jpg[Motors mounted]
+
+image:frame-martian-II-matek-build-07.jpg[Wiring to power board]
+
+image:frame-martian-II-matek-build-08.jpg[Wiring motors to controller board]
+
+image:frame-martian-II-matek-build-09.jpg[Wiring radio FSA8S to controller board]

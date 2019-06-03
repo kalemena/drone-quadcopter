@@ -21,7 +21,7 @@ image:res/drone-f450.png[Frame - F450]
 
 * link:stories/03-ctrl-omnibus-f4-pro-v2[Controller - Omnibus F4 pro v2]
 
-// * link:stories/04-ctrl-matek-f405-ctr[Controller - Matek F405 CTR]
+* link:stories/04-ctrl-matek-f405-ctr[Controller - Matek F405 CTR]
 
 // * link:stories/05-cam-runcam-split[Camera - Runcam Split]
 
@@ -75,5 +75,5 @@ link:https://www.banggood.com/fr/Flysky-FS-A8S-2_4G-8CH-Mini-Receiver-with-PPM-i
 
 * link:https://blog.dronetrest.com/setting-up-flight-modes-in-cleanflight-betaflight/[Bateflight setting up]
 
-* link:http://bestdronesforme.com/best-drone-flight-controllers-quadcopters-board/[]
+* link:http://bestdronesforme.com/best-drone-flight-controllers-quadcopters-board/[Guides for drones]
 
