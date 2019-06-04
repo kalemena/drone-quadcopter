@@ -10,7 +10,7 @@ image:/res/drone-f450.png[F450 frame]
 * Controller kit: (ebay ~ 50€)
   ** Omnibus F4 v2 pro (using gyro + pressure sensor)
   ** Wires (micro JST)
-  ** GPS
+  ** GPS support
   ** Bluetooth
 
 * Frame kit: (ebay ~ 50€)
@@ -43,7 +43,7 @@ $ dmesg | grep tty
 $ sudo usermod -a -G plugdev clement
 ```
 
-* Install Chrome betaflight app
+* Install link:https://betaflight.com/#[Betaflight Configurator]
 
 * Run the app and connect to /dev/ttyACM0
 
