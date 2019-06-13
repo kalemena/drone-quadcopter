@@ -48,18 +48,23 @@ module middle() {
         translate([part2_L-spacer_diam-3,0,10]) cube([2, width, z_h-10]);
         difference() {
             hull() {
-                cube([part2_L-spacer_diam-width-1,10,z_h]);
-                translate([10,0,0]) cube([part2_L-spacer_diam-width-21,20,z_h*2/3]);
+                translate([0,0,10]) cube([part2_L-spacer_diam-width-1,10,z_h-10]);
+                translate([30,8,15]) sphere(32/2);
+                translate([12,8,8]) cylinder(15,10,10);
+                translate([49,8,8]) cylinder(15,10,10);
+                translate([12,8,0]) cube([49-12,10,10]);          
             }
-            translate([1,-1,0])
+            translate([1,-1.5,-1])
             hull() {
-                cube([part2_L-spacer_diam-width-3,10,z_h-1]);
-                translate([10,0,0]) cube([part2_L-spacer_diam-width-21,20,z_h*2/3]);
+                cube([part2_L-spacer_diam-width-3,10,z_h]);
+                translate([29,8,15]) sphere(32/2);
+                translate([11,8,0]) cylinder(20,10,10);
+                translate([48,8,0]) cylinder(20,10,10);                
             }
             translate([part2_L/3+2,12,2]) cube([14, 10, 4]);
             translate([part2_L/3+2,6,z_h-5]) cube([14, 5, 10]);
-            translate([12+13,10-10,0]) rotate([-90,0,45]) cylinder(40,10,10);
-            translate([14+35-8,10-10,0]) rotate([-90,0,-45]) cylinder(40,10,10);
+            translate([12+14,10-10,0]) rotate([-90,0,45]) cylinder(40,11,10);
+            translate([14+35-9,10-10,0]) rotate([-90,0,-45]) cylinder(40,11,10);
         }
     }
 }
@@ -88,7 +93,7 @@ module side() {
 difference() {
     union() {
         side(); // left
-        //translate([0,-y_l,0]) mirror([0,1,0]) side(); // right
+        translate([0,-y_l,0]) mirror([0,1,0]) side(); // right
     }
     
     // center-back
