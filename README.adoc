@@ -71,9 +71,20 @@ link:https://www.banggood.com/fr/Flysky-FS-A8S-2_4G-8CH-Mini-Receiver-with-PPM-i
 
 == References
 
+=== Betaflight
+
 * link:https://www.wearefpv.fr/betaflight-3-2-reglages-pid-20170918/[Betaflight PID tuning]
 
 * link:https://blog.dronetrest.com/setting-up-flight-modes-in-cleanflight-betaflight/[Bateflight setting up]
 
 * link:http://bestdronesforme.com/best-drone-flight-controllers-quadcopters-board/[Guides for drones]
 
+=== Controller
+
+* link:https://github.com/qba667/FlySkyI6[Firmware upgrade]
+
+* link:https://github.com/benb0jangles/FlySky-i6-Mod-[Older firmware upgrade details]
+
+* link:https://github.com/povlhp/FlySkyRxFirmware[Upgrade receiver firmware]
+
+* link:https://github.com/smallsoda/flysky_ibus[Python lib]
