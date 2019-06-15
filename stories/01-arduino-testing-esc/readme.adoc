@@ -3,11 +3,39 @@
 
 Arduino can be used to test ESC directly.
 
-= Tests
+== Tests
 
 Sketches in this folder allow to test rotating ESC.
 
 There are few things to understand, described inline in the sketches.
+
+== ESC Specs
+
+```bash
+Specification: (Manual)
+Brand Name: Racerstar
+Item Name:New Beheli_S 30A ESC
+Model: RS30A V2
+Input Voltage: 2-4S
+Con.Current:30A
+Peak Current(10s):35A
+BEC:NO
+Programming :YES
+Net Weight: 6.26g
+Size:28*13mm
+
+
+Features:
+- Chips on EFM8BB21F16, 48MHZ Greatest .
+- BLHeli_S is designed for superior performance in multirotors, and uses hardware generated motor pwm for smooth throttle response and silent operation.
+- Small size combined with light weight for easy installation. 
+- The code supports regular 1-2ms pulse width input, as well as Oneshot125 (125-250us), Oneshot42 (41.7-83.3us) and Multishot (5-25us).
+- The input signal is automatically detected by the ESC upon power up.
+- All codes use damped light mode.Damped light does regenerative braking, causing very fast motor retardation, and inherently also does active freewheeling
+- The code supports features to prevent sync loss. There are tuneable parameters that can make the code run well even in the most demanding situations, although default settings will work
+- excellently in normal operating environments
+- The code also supports a beacon functionality, where the ESC will start beeping after a given time of zero throttle. This can be very useful for finding lost crafts.
+```
 
 == References
 
