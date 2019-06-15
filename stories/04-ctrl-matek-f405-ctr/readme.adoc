@@ -35,7 +35,7 @@ Motors mounted:
 
 image:frame-martian-II-matek-build-06.jpg[Motors mounted]
 
-[Wiring to power board:
+Wiring to power board:
 
 image:frame-martian-II-matek-build-07.jpg[Wiring to power board]
 
