@@ -9,7 +9,7 @@ BN-880 wiring
 
 image:BN-880-pin.jpg[Pins]
 
-image:MatekF450CTR-BN-880-schema.jpg[Wiring Matek]
+image:MatekF450CTR-BN-880-schema.png[Wiring Matek]
 
 image:MatekF450CTR-BN-880.jpg[Final wiring]
 

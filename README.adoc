@@ -25,6 +25,8 @@ image:res/drone-f450.png[Frame - F450]
 
 // * link:stories/05-cam-runcam-split[Camera - Runcam Split]
 
+* link:stories/06-gps[GPS Wiring in Betaflight]
+
 // * link:stories/06-frame-3d-printing[Frame - 3d printed add-on]
 
 == BOM
