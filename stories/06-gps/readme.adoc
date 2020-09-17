@@ -33,6 +33,18 @@ mag_hardware set to AUTO
 
 NOTE: Compass can be verified when plug to PC by rotating the GPS should move slightly the Quad display like moving controller itself.
 
+Tips on values for compass:
+
+0 		driver default
+ 1 	CW0_DEG 	 not rotated or flipped
+ 2 	 CW90_DEG 	 rotated by 90 degrees (Z axis), not flipped (X axis)
+ 3 	CW180_DEG 	 rotated by 180 degrees (Z axis), not flipped (X axis)
+ 4 	 CW270_DEG 	 rotated by 270 degrees (Z axis), not flipped (X axis)
+ 5 	 CW0_DEG_FLIP 	 rotated by 0 degrees (Z axis), flipped (X axis)
+ 6 	 CW90_DEG_FLIP 	rotated by 90 degrees (Z axis), flipped (X axis)
+ 7 	CW180_DEG_FLIP 	 rotated by 180 degrees (Z axis), flipped (X axis)
+ 8 	CW270_DEG_FLIP 	 rotated by 270 degrees (Z axis), flipped (X axis)
+
 == 3d prints
 
 TODO: Check link:https://www.thingiverse.com/search?q=bn-880[3d parts] and design Openscad
